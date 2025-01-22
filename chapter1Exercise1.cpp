@@ -6,6 +6,7 @@ Requirements:
 Write a c++ code to calculate someone’s gross pay.
 */
 #include<iostream>
+#include<iomanip>
 using namespace std;
 
 int main()
@@ -22,7 +23,7 @@ int main()
 
     pay = hours * payrate;
 
-    cout << "Paycheck for this week is :$" << pay <<"\n";
+    cout << fixed <<setprecision(2)<<"Paycheck for this week is :$" << pay <<"\n";
 
     return 0;
 }
