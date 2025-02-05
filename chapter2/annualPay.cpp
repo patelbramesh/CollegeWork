@@ -22,4 +22,6 @@ int main(){
     annualPay = payAmount * payPeriods;
 
     cout <<"The amount earn per year is:"<<annualPay;
-}
+
+    return 0;
+} 
