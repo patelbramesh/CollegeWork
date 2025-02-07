@@ -11,13 +11,7 @@ using namespace std;
 
 int main(){
 
-    float payAmount,payPeriods,annualPay;
-
-    cout <<"Enter the amount you Earn:";
-    cin >>payAmount;
-
-    cout <<"Enter the number of pay period:";
-    cin >>payPeriods;
+    int payAmount=2200,payPeriods=26,annualPay;
 
     annualPay = payAmount * payPeriods;
 
