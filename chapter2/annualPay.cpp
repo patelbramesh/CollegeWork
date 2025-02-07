@@ -15,7 +15,9 @@ int main(){
 
     annualPay = payAmount * payPeriods;
 
-    cout <<"The amount earn per year is:"<<annualPay;
+    cout <<"The pay amount per month is:"<<payAmount<< endl
+         <<"The pay periods in a year are:"<<payPeriods<< endl
+         <<"The amount earn per year is:"<<annualPay<< endl;
 
     return 0;
 } 
