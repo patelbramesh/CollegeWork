@@ -3,7 +3,7 @@ File name: area
 Programmer: Bramesh Patel
 Date: feburary 2025
 Requirements:
-Write a program for find area 
+Write a program for find the are of gallon of paint need
 */
 #include <iostream>
 #include<iomanip>
