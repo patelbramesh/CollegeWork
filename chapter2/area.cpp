@@ -6,6 +6,7 @@ Requirements:
 Write a program for find area 
 */
 #include <iostream>
+#include<iomanip>
 
 using namespace std;
 
@@ -18,10 +19,10 @@ int main() {
 
     float totalArea = height * length * coats;
 
-    int gallonsNeeded = totalArea / coveragePerGallon;
+    float gallonsNeeded = totalArea / coveragePerGallon;
 
     cout << "Total area to be painted: " << totalArea << " square feet ";
-    cout << "Gallons of paint needed: " << gallonsNeeded << endl;
+    cout << fixed << setprecision(2) << "Gallons of paint needed: " << gallonsNeeded << endl;
 
     return 0;
 }
