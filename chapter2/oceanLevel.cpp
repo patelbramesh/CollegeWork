@@ -9,16 +9,23 @@ Write a program for rising water levels in ocean
 #include<iomanip>
 using namespace std;
 
-int main(){
-    float millimeter = 1.5;
-    int year1 = 5,year2 =7,year3=10;
-    
-    float rise1 = millimeter * year1;
-    float rise2 = millimeter * year2;
-    float rise3 = millimeter * year3;
+int main() {
+    float millimeter, years;
 
-    cout << fixed << setprecision(2) 
-    << "The ocean level rise in " << year1 << " years is: "<< rise1<<"mm higher"<<endl
-    << "The ocean level rise in " << year2 << " years is: "<< rise2<<"mm higher"<<endl
-    << "The ocean level rise in " << year3 << " years is: "<< rise3<<"mm higher"<<endl;
+    cout << "Enter the amount of water rise in a year: ";
+    cin >> millimeter;
+    cout << "Enter the number of years: ";
+    cin >> years;
+
+    if (millimeter <= 0) {
+        cout << "The amount is less than or equal to zero.";
+    } else {
+        cout << "Yearly ocean rise :\n";
+
+        for (int i = 1; i <= years; i++) {
+            cout << "Year " << i << ": " << (millimeter * i) << " mm higher\n";
+        }
+    }
+
+    return 0;
 }
