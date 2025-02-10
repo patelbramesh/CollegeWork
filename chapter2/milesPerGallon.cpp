@@ -1,5 +1,5 @@
 /*
-File name: oceanLevel
+File name: milesPerGallon
 Programmer: Bramesh Patel
 Date: feburary 2025
 Requirements:
