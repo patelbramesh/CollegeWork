@@ -19,7 +19,14 @@ and amount of credit used. display the all information.
 using namespace std;
 
 int main(){
-    double  avaiablecredit, creditUsed, maxCredit;
+    double  avaiableCredit, creditUsed, maxCredit;
 
-    cout << ""
+    cout <<"Enter your maximum credit:";
+    cin >> maxCredit;
+    cout <<"Enter how much have you already charged:";
+    cin >> creditUsed;
+
+    avaiableCredit = maxCredit - creditUsed;
+
+    cout <<"The amount of have left: " << avaiableCredit;
 }
