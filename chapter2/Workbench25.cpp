@@ -29,4 +29,6 @@ int main(){
     avaiableCredit = maxCredit - creditUsed;
 
     cout <<"The amount of have left: " << avaiableCredit;
+
+    return 0;
 }
