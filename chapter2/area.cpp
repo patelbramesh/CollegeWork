@@ -21,8 +21,8 @@ int main() {
 
     float gallonsNeeded = totalArea / coveragePerGallon;
 
-    cout << "Total area to be painted: " << totalArea << " square feet ";
-    cout << fixed << setprecision(2) << "Gallons of paint needed: " << gallonsNeeded << endl;
+    cout << "Total area to be painted: " << totalArea << " square feet " << endl
+         << fixed << setprecision(2) << "Gallons of paint needed: " << gallonsNeeded << endl;
 
     return 0;
 }
