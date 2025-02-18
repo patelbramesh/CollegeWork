@@ -1,5 +1,5 @@
 /*
-File name: randomNumber.cpp
+File name: principal.cpp
 Programmer: Bramesh Patel
 Date: feburary 2025
 Requirements:
