@@ -28,4 +28,6 @@ int main(){
     cout << "The number of cups of suger you will need " << sugar << "cups" << endl;
     cout << "The number of cups of butter you will need " << butter << "cups" << endl;
     cout << "The number of cups of flour you will need " << flour << "cups" << endl;
+
+    return 0;
 }

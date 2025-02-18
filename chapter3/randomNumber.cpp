@@ -27,4 +27,6 @@ int main(){
     cout<< setw(9) <<"______" << endl;
     getchar();
     cout << setw(9) << sum << endl;
+
+    return 0;
 }
