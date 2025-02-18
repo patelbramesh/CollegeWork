@@ -17,7 +17,7 @@ int main() {
 
     cout << "Enter the loan amount: ";
     cin >> loanAmount;
-    cout << "Enter the annual interest rate (as a percentage, e.g., 12 for 12%): ";
+    cout << "Enter the annual interest rate : ";
     cin >> annualRate;
     cout << "Enter the number of monthly payments: ";
     cin >> numPayments;
