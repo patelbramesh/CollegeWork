@@ -8,13 +8,46 @@ Requirements:
  for correct answer.
 */
 #include<iostream>
-#include<cstdio>
+#include<iomanip>
+#include<cstdlib>
+#include<ctime>
 using namespace std;
 
+// Function to generate two random numbres
+int generateNumber(int &num1,int &num2){
+
+    
+    // generate random number between 100 to 999
+     num1 = rand ()% 900+100;
+     num2 = rand ()% 900+100;
+    
+    return 0;
+}
+int getResult(int num1, int num2){
+    return num1 - num2;
+}
 int main()
 {
-    srand(time(0))
+    int num1,num2,userAnswer,correctAnswer;
     
-    int num1 = rand ()% 900+100;
-    int num1 = rand ()% 900+100;
+    srand(time(0)); //this generate different number everytime
+
+    generateNumber(num1,num2);
+    correctAnswer = getResult(num1,num2);
+   
+    cout << "Solve the following problem:"<< endl;
+    cout << setw(5) << num1 << endl;
+    cout << setw(1) << "- "<< num2 << endl;
+    cout << setw(3) << "_____" << endl;
+
+    cout << "Enter your answer: ";
+    cin >> userAnswer;
+    
+    if(userAnswer == correctAnswer){
+        cout << "Answer is correct."<<endl;
+    }else{
+        cout << "Answer is Incorrect."<< correctAnswer<< endl;
+    }
+
+    return 0;
 }
