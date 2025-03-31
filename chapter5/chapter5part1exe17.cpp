@@ -23,6 +23,7 @@ int generateNumber(int &num1,int &num2){
     
     return 0;
 }
+// Function to get result of two integers
 int getResult(int num1, int num2){
     return num1 - num2;
 }
@@ -40,13 +41,14 @@ int main()
     cout << setw(1) << "- "<< num2 << endl;
     cout << setw(3) << "_____" << endl;
 
-    cout << "Enter your answer: ";
+    cout << "Enter your answer: "; //This where you need to write you calculated answer
     cin >> userAnswer;
     
+    //This will check if user has calculated correct or incorrect output
     if(userAnswer == correctAnswer){
         cout << "Answer is correct."<<endl;
     }else{
-        cout << "Answer is Incorrect."<< correctAnswer<< endl;
+        cout << "Answer is Incorrect. Correct answer is "<< correctAnswer<< endl;
     }
 
     return 0;
