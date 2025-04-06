@@ -22,7 +22,7 @@ void generateNumber(int &num1, int &num2) {
 
 // Function to get the result of two integers
 int getResult(int num1, int num2) {
-    return num1 + num2; // This should be addition, not subtraction
+    return num1 + num2; // Addition of two number.
 }
 
 // Function to ask if the user wants to repeat
