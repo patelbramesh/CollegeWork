@@ -14,7 +14,6 @@ using namespace std;
 
 // This will generate random number
 void generateRandomNumber(int &num) {
-    srand(time(0)); // Only call this once in main ideally
     num = rand() % 50 + 1;
 }
 
@@ -34,7 +33,9 @@ bool checkNumber(int num, int guess) {
 
 int main() {
     int num, guess;
-
+    
+    srand(time(0)); // To generate new number
+    
     generateRandomNumber(num);
     cout << "Guess the number (between 1 and 50): ";
 
