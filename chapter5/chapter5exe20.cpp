@@ -2,6 +2,13 @@
 File Name: chapter5exe20.cpp
 Programmer Name: Bramesh Patel
 Date: 04/25
+Requirement:
+Same as exercise 20 and Additional 
+The program should display a menu something like this:
+1. Display Existing Sessions.
+2. Play a New Session.
+3. Delete previous sessions.
+4. Exit the program.
 */
 
 #include <iostream>
