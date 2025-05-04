@@ -2,9 +2,10 @@
 File Name: Chapter6exe24.cpp
 Developer/Programmer: Bramesh Patel
 Date: 05/25
-Requirements: Write a Rock, Paper, Scissors game between user and computer. 
-All input should be validated. Use at least 3 modules. Avoid using cin.fail.
-Each module must have a brief comment. Program must be repeatable.
+Requirements: 
+Write a Rock, Paper, Scissors game between user and computer. 
+All input should be validated.
+Program must be repeatable.
 */
 
 #include <iostream>
