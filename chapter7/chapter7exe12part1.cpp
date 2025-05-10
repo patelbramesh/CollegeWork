@@ -1,6 +1,6 @@
 /*
 File Name: Chapter7exe12.cpp
-Developer/Programmer: Bramesh Patel
+Programmer: Bramesh Patel
 Date: 05/25
 
 Requirement:
